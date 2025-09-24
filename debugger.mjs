@@ -16,6 +16,6 @@ function sayHello(name) {
     return `Hello ${name}`;
 }
 
-const firstname = "devun";
+const firstname = "devunn";
 debugger
 console.log(sayHello(firstname));
