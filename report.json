@@ -5,13 +5,13 @@
     "event": "Exception",
     "trigger": "Exception",
     "filename": "report.json",
-    "dumpEventTime": "2025-10-10T23:27:04Z",
-    "dumpEventTimeStamp": "1760113624973",
-    "processId": 13940,
+    "dumpEventTime": "2025-10-11T23:48:50Z",
+    "dumpEventTimeStamp": "1760201330989",
+    "processId": 9076,
     "threadId": 0,
     "cwd": "D:\\latihan-nodejs",
     "commandLine": [
-      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Program Files/nodejs/node.exe",
       "report.mjs"
     ],
     "nodejsVersion": "v22.14.0",
@@ -63,56 +63,56 @@
       {
         "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
         "speed": 2371,
-        "user": 8290875,
+        "user": 9628484,
         "nice": 0,
-        "sys": 12321187,
-        "idle": 139135734,
-        "irq": 1731937
+        "sys": 14613562,
+        "idle": 168200593,
+        "irq": 2050281
       },
       {
         "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
         "speed": 2371,
-        "user": 8009109,
+        "user": 9739031,
         "nice": 0,
-        "sys": 7905640,
-        "idle": 143833000,
-        "irq": 395859
+        "sys": 9501531,
+        "idle": 173202031,
+        "irq": 488390
       },
       {
         "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
         "speed": 2371,
-        "user": 8760031,
+        "user": 10319906,
         "nice": 0,
-        "sys": 6151390,
-        "idle": 144836328,
-        "irq": 327375
+        "sys": 7586015,
+        "idle": 174536671,
+        "irq": 401718
       },
       {
         "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
         "speed": 2371,
-        "user": 7241437,
+        "user": 8593609,
         "nice": 0,
-        "sys": 6020250,
-        "idle": 146486062,
-        "irq": 387125
+        "sys": 7264328,
+        "idle": 176584656,
+        "irq": 475031
       },
       {
         "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
         "speed": 2371,
-        "user": 7638265,
+        "user": 8964578,
         "nice": 0,
-        "sys": 5904328,
-        "idle": 146205156,
-        "irq": 342531
+        "sys": 7116125,
+        "idle": 176361890,
+        "irq": 407218
       },
       {
         "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
         "speed": 2371,
-        "user": 6760671,
+        "user": 7934625,
         "nice": 0,
-        "sys": 5779984,
-        "idle": 147207093,
-        "irq": 445031
+        "sys": 6731046,
+        "idle": 177776921,
+        "irq": 520796
       }
     ],
     "networkInterfaces": [
@@ -186,10 +186,10 @@
     "totalMemory": 6062080,
     "executableMemory": 262144,
     "totalCommittedMemory": 6062080,
-    "availableMemory": 2193600544,
+    "availableMemory": 2193600624,
     "totalGlobalHandlesMemory": 8192,
     "usedGlobalHandlesMemory": 2912,
-    "usedMemory": 5114144,
+    "usedMemory": 5114064,
     "memoryLimit": 2197815296,
     "mallocedMemory": 163912,
     "externalMemory": 1807433,
@@ -209,8 +209,8 @@
         "memorySize": 1048576,
         "committedMemory": 1048576,
         "capacity": 1030912,
-        "used": 771680,
-        "available": 259232
+        "used": 771600,
+        "available": 259312
       },
       "old_space": {
         "memorySize": 3416064,
@@ -279,51 +279,51 @@
   },
   "nativeStack": [
     {
-      "pc": "0x00007ff7debc04db",
+      "pc": "0x00007ff65d6904db",
       "symbol": "node::GetNodeReport+14091"
     },
     {
-      "pc": "0x00007ff7debc49ad",
+      "pc": "0x00007ff65d6949ad",
       "symbol": "node::TriggerNodeReport+3661"
     },
     {
-      "pc": "0x00007ff7debc3957",
+      "pc": "0x00007ff65d693957",
       "symbol": "node::TriggerNodeReport+3463"
     },
     {
-      "pc": "0x00007ff7debc2c11",
+      "pc": "0x00007ff65d692c11",
       "symbol": "node::TriggerNodeReport+65"
     },
     {
-      "pc": "0x00007ff7dec5b320",
+      "pc": "0x00007ff65d72b320",
       "symbol": "node::OnFatalError+3600"
     },
     {
-      "pc": "0x00007ff7dec5c85d",
+      "pc": "0x00007ff65d72c85d",
       "symbol": "node::OnFatalError+9037"
     },
     {
-      "pc": "0x00007ff7dec5c50c",
+      "pc": "0x00007ff65d72c50c",
       "symbol": "node::OnFatalError+8188"
     },
     {
-      "pc": "0x00007ff77f7cfa64",
+      "pc": "0x00007ff5fe28fa64",
       "symbol": ""
     }
   ],
   "resourceUsage": {
-    "free_memory": 1655840768,
+    "free_memory": 1041899520,
     "total_memory": 7916019712,
-    "rss": 35139584,
-    "available_memory": 1655181312,
+    "rss": 35143680,
+    "available_memory": 1041899520,
     "userCpuSeconds": 0.093,
     "kernelCpuSeconds": 0.046,
     "cpuConsumptionPercent": 13.9,
     "userCpuConsumptionPercent": 9.3,
     "kernelCpuConsumptionPercent": 4.6,
-    "maxRss": 56819712,
+    "maxRss": 56909824,
     "pageFaults": {
-      "IORequired": 14483,
+      "IORequired": 14481,
       "IONotRequired": 0
     },
     "fsActivity": {
@@ -336,59 +336,59 @@
       "type": "async",
       "is_active": true,
       "is_referenced": false,
-      "address": "0x00000232719074e0"
+      "address": "0x000001ed3d95b3c0"
     },
     {
       "type": "async",
       "is_active": true,
       "is_referenced": false,
-      "address": "0x00007ff7e371f5a0"
+      "address": "0x00007ff6621ef5a0"
     },
     {
       "type": "timer",
       "is_active": false,
       "is_referenced": false,
-      "address": "0x00000232734906a8",
+      "address": "0x000001ed3f3d19d8",
       "repeat": 0,
-      "firesInMsFromNow": -400716003,
+      "firesInMsFromNow": -488426264,
       "expired": true
     },
     {
       "type": "check",
       "is_active": true,
       "is_referenced": false,
-      "address": "0x0000023273490748"
+      "address": "0x000001ed3f3d1a78"
     },
     {
       "type": "idle",
       "is_active": false,
       "is_referenced": true,
-      "address": "0x00000232734907c0"
+      "address": "0x000001ed3f3d1af0"
     },
     {
       "type": "prepare",
       "is_active": true,
       "is_referenced": false,
-      "address": "0x0000023273490838"
+      "address": "0x000001ed3f3d1b68"
     },
     {
       "type": "check",
       "is_active": true,
       "is_referenced": false,
-      "address": "0x00000232734908b0"
+      "address": "0x000001ed3f3d1be0"
     },
     {
       "type": "async",
       "is_active": true,
       "is_referenced": false,
-      "address": "0x0000023273490928"
+      "address": "0x000001ed3f3d1c58"
     },
     {
       "type": "tty",
       "is_active": false,
       "is_referenced": true,
-      "address": "0x000002327193ddd0",
-      "width": 150,
+      "address": "0x000001ed3d9925a0",
+      "width": 143,
       "height": 12,
       "writeQueueSize": 0,
       "readable": false,
@@ -398,7 +398,7 @@
       "type": "signal",
       "is_active": true,
       "is_referenced": false,
-      "address": "0x000002327347a3a0",
+      "address": "0x000001ed3f3ac150",
       "signum": 28,
       "signal": "SIGWINCH"
     },
@@ -406,7 +406,7 @@
       "type": "tty",
       "is_active": false,
       "is_referenced": true,
-      "address": "0x000002327193dfe0",
+      "address": "0x000001ed3d993410",
       "writeQueueSize": 0,
       "readable": true,
       "writable": false
@@ -415,8 +415,8 @@
       "type": "tty",
       "is_active": false,
       "is_referenced": true,
-      "address": "0x000002327193d380",
-      "width": 150,
+      "address": "0x000001ed3d991940",
+      "width": 143,
       "height": 12,
       "writeQueueSize": 0,
       "readable": false,
@@ -425,70 +425,105 @@
     {
       "type": "loop",
       "is_active": false,
-      "address": "0x00007ff7e39abba0",
-      "loopIdleTimeSeconds": 0.000226
+      "address": "0x00007ff66247bba0",
+      "loopIdleTimeSeconds": 0.0001727
     }
   ],
   "workers": [
   ],
   "environmentVariables": {
+    "ACLOCAL_PATH": "/mingw64/share/aclocal:/usr/share/aclocal",
     "ALLUSERSPROFILE": "C:\\ProgramData",
     "ANDROID_HOME": "C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk",
     "APPDATA": "C:\\Users\\lenovo\\AppData\\Roaming",
     "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
     "ChocolateyLastPathUpdate": "133845462672176113",
-    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_15044_IDCRVRDWNUNYOFLZ",
-    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_3504_YFFNRKIDAWUPQXCT",
+    "COLORTERM": "truecolor",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
     "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
     "CommonProgramW6432": "C:\\Program Files\\Common Files",
     "COMPUTERNAME": "LAPTOP-FQFQK8CP",
-    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "/etc/config.site",
     "C_EM64T_REDIST11": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\",
+    "DISPLAY": "needs-to-be-defined",
     "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
-    "EFC_19796_1592913036": "1",
+    "EFC_17732_1262719628": "1",
+    "EFC_17732_1592913036": "1",
+    "EFC_17732_2283032206": "1",
+    "EFC_17732_2775293581": "1",
+    "EFC_17732_3789132940": "1",
+    "EXEPATH": "D:\\Git\\bin",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GIT_ASKPASS": "c:\\Users\\lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "HOME": "C:\\Users\\lenovo",
     "HOMEDRIVE": "C:",
     "HOMEPATH": "\\Users\\lenovo",
+    "HOSTNAME": "LAPTOP-FQFQK8CP",
+    "INFOPATH": "/mingw64/local/info:/mingw64/share/info:/usr/local/info:/usr/share/info:/usr/info:/share/info",
+    "LANG": "en_US.UTF-8",
     "LOCALAPPDATA": "C:\\Users\\lenovo\\AppData\\Local",
     "LOGONSERVER": "\\\\LAPTOP-FQFQK8CP",
+    "MANPATH": "/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "/mingw64",
+    "MSYS": "disable_pcon",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "/mingw64",
     "NUMBER_OF_PROCESSORS": "6",
     "OneDrive": "C:\\Users\\lenovo\\OneDrive",
+    "ORIGINAL_PATH": "D:\\Git\\mingw64\\bin;D:\\Git\\usr\\bin;C:\\Users\\lenovo\\bin;D:\\flutter\\flutter\\bin\\cache\\dart-sdk\\bin;C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.6.7-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Razer Chroma SDK\\bin;C:\\Program Files\\Razer Chroma SDK\\bin;C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Razer\\ChromaBroadcast\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\gcc-14.2.0\\bin;C:\\Program Files\\nodejs;C:\\ProgramData\\chocolatey\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\GitHub CLI;C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\flutter\\flutter\\bin;C:\\Users\\lenovo\\AppData\\Local\\Pub\\Cache\\bin;C:\\msys64\\ucrt64\\bin;C:\\gcc-14.2.0\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\npm;C:\\Users\\lenovo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand",
+    "ORIGINAL_TEMP": "/tmp",
+    "ORIGINAL_TMP": "/tmp",
     "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
     "OS": "Windows_NT",
-    "Path": "D:\\flutter\\flutter\\bin\\cache\\dart-sdk\\bin\\;C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.6.7-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Razer Chroma SDK\\bin;C:\\Program Files\\Razer Chroma SDK\\bin;C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Razer\\ChromaBroadcast\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\gcc-14.2.0\\bin;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\GitHub CLI\\;C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\flutter\\flutter\\bin;C:\\Users\\lenovo\\AppData\\Local\\Pub\\Cache\\bin;C:\\msys64\\ucrt64\\bin;C:\\gcc-14.2.0\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\npm;;c:\\Users\\lenovo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand",
-    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PATH": "C:\\Users\\lenovo\\bin;D:\\Git\\mingw64\\bin;D:\\Git\\usr\\local\\bin;D:\\Git\\usr\\bin;D:\\Git\\usr\\bin;D:\\Git\\mingw64\\bin;D:\\Git\\usr\\bin;C:\\Users\\lenovo\\bin;D:\\flutter\\flutter\\bin\\cache\\dart-sdk\\bin;C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.6.7-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files (x86)\\Razer Chroma SDK\\bin;C:\\Program Files\\Razer Chroma SDK\\bin;C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Razer\\ChromaBroadcast\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\gcc-14.2.0\\bin;C:\\Program Files\\nodejs;C:\\ProgramData\\chocolatey\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\GitHub CLI;C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\flutter\\flutter\\bin;C:\\Users\\lenovo\\AppData\\Local\\Pub\\Cache\\bin;C:\\msys64\\ucrt64\\bin;C:\\gcc-14.2.0\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\npm;C:\\Users\\lenovo\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand;D:\\Git\\usr\\bin\\vendor_perl;D:\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig",
+    "PKG_CONFIG_SYSTEM_INCLUDE_PATH": "/mingw64/include",
+    "PKG_CONFIG_SYSTEM_LIBRARY_PATH": "/mingw64/lib",
+    "PLINK_PROTOCOL": "ssh",
     "PROCESSOR_ARCHITECTURE": "AMD64",
     "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
     "PROCESSOR_LEVEL": "23",
     "PROCESSOR_REVISION": "6001",
     "ProgramData": "C:\\ProgramData",
-    "ProgramFiles": "C:\\Program Files",
+    "PROGRAMFILES": "C:\\Program Files",
     "ProgramFiles(x86)": "C:\\Program Files (x86)",
     "ProgramW6432": "C:\\Program Files",
-    "PSModulePath": "C:\\Users\\lenovo\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PS1": "\\[\u001b]633;A\u0007\\]\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ \\[\u001b]633;B\u0007\\]",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
     "PT8HOME": "D:\\Game\\Games2\\Cisco Packet Tracer 8.2.1",
     "PUBLIC": "C:\\Users\\Public",
+    "PWD": "/d/latihan-nodejs",
     "SESSIONNAME": "Console",
-    "SystemDrive": "C:",
-    "SystemRoot": "C:\\WINDOWS",
+    "SHELL": "D:\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "1",
+    "SSH_ASKPASS": "/mingw64/bin/git-askpass.exe",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
     "TEMP": "C:\\Users\\lenovo\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.105.0",
     "TMP": "C:\\Users\\lenovo\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\lenovo\\AppData\\Local\\Temp",
     "USERDOMAIN": "LAPTOP-FQFQK8CP",
     "USERDOMAIN_ROAMINGPROFILE": "LAPTOP-FQFQK8CP",
     "USERNAME": "lenovo",
     "USERPROFILE": "C:\\Users\\lenovo",
     "VBOX_HWVIRTEX_IGNORE_SVM_IN_USE": "1",
-    "VSCODE_PYTHON_AUTOACTIVATE_GUARD": "1",
-    "windir": "C:\\WINDOWS",
-    "TERM_PROGRAM": "vscode",
-    "TERM_PROGRAM_VERSION": "1.105.0",
-    "LANG": "en_US.UTF-8",
-    "COLORTERM": "truecolor",
-    "GIT_ASKPASS": "c:\\Users\\lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
-    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
     "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "",
     "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
     "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-be9cbec16a-sock",
-    "VSCODE_INJECTION": "1"
+    "VSCODE_PYTHON_AUTOACTIVATE_GUARD": "1",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "/usr/bin/winpty"
   },
   "sharedObjects": [
     "C:\\Program Files\\nodejs\\node.exe",
@@ -497,10 +532,10 @@
     "C:\\WINDOWS\\System32\\KERNELBASE.dll",
     "C:\\WINDOWS\\System32\\WS2_32.dll",
     "C:\\WINDOWS\\System32\\ucrtbase.dll",
-    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
     "C:\\WINDOWS\\System32\\RPCRT4.dll",
-    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
     "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
     "C:\\WINDOWS\\System32\\ADVAPI32.dll",
     "C:\\WINDOWS\\System32\\OLEAUT32.dll",
     "C:\\WINDOWS\\System32\\msvcrt.dll",
@@ -515,9 +550,9 @@
     "C:\\WINDOWS\\System32\\SHELL32.dll",
     "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
     "C:\\WINDOWS\\System32\\wintypes.dll",
-    "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
     "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
     "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
     "C:\\WINDOWS\\SYSTEM32\\dbgcore.DLL",
     "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
     "C:\\WINDOWS\\System32\\IMM32.DLL",
