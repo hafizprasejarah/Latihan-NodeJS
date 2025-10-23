@@ -1,0 +1,9 @@
+Hello World
+ups
+┌───────────┬───────────────────┐
+│ (index)   │ Values            │
+├───────────┼───────────────────┤
+│ firstname │ 'Hafiz'           │
+│ lastanem  │ 'Pratama'         │
+│ hobby     │ 'Watching Movies' │
+└───────────┴───────────────────┘
