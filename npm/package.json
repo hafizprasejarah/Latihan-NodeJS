@@ -1,0 +1,31 @@
+{
+  "name": "belajarnpm",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS NPM",
+  "keywords": [
+    "belajarnodejs",
+    "nodejs",
+    "npm"
+  ],
+  "license": "ISC",
+
+  "author": "Hafiz Pratama",
+  "type": "module",
+
+  "scripts": {
+    "run": "node index.js",
+    "prestart": "echo 'Sebelum Applikasi Dijalankan'",
+    "start": "node index.js",
+    "poststart": "echo 'Sesudah Applikasi Dijalankan'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "exports":{
+    "." :"./index.js",
+    "./write" :"./write.js"
+  },
+
+  "dependencies": {
+    "lodash" : "4.17.21"
+  }
+}

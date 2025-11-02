@@ -1,0 +1,110 @@
+PENGENALAN
+-saat kita membuat aplikasi, biasanya kita akan buat dalam bentuk project
+-sederhananya, project adalah directory/folder yang berisikan kode program dan depedency (library) yang kita butuhkan
+-melakukan management kode program dan depedency management secara manual bukanlah hal yang menyenangkan
+-untungnya, NodeJS menyediakan NPM (Node Package Manager) yang bisa kita gunakan untuk melakukan management project NodeJS
+
+KEGUNAAN NPM
+-NPM tidak hanya digunakan untuk melakukan management project NodeJS
+-NPM juga bisa digunakan untuk melakukan depedency management yang kita butuhkan dalam project yang kita buat
+-NPM bisa digunakan untuk download depedency, update dan upgrade depedency secara otomatis
+ tanpa harus kita lakukan secara manual dengan cara download depedency secara manual
+
+FILE Package.json
+-Saat kita melakukan management project menggunakan NPM
+-NPM menyimpan semua konfigurasi project di file bernama package.json 
+-Semua konfigurasi project dan juga depedency kita simpan dalam file package.json yang tedapat di dalam directory project
+-kita bisa buat file package.json secara manual, atau menggunakan auto generate secara otomatis
+ menggunakan NPM
+
+NodeJS Depedency Repository
+-Saat kita melakukan management  depedency menggunakan NPM
+-NPM akan melakukan pencarian dan donwload depedency secara otomatis dari website https://www.npmjs.com/
+-kita juga bisa mencari depedency di website https://www.npmjs.com/
+
+Menginstall NPM
+-Kita tidak perlu Menginstall NPM secara manual
+-Saat kita menginstall NodeJS, secara otomatis NPM akan terinstall juga
+-Untuk mengecheck versi NPM yang terinstall di komputer kita, kita bisa gunakan perintah: npm --version
+  
+cara penggunaan
+-masuk dengan cara menggunakan command "npm init"
+
+package.json
+-Inti dari konfigurasi project NodeJS adalah package.json
+-File package.json merupakan konfigurasi yang berupa format json untuk project NodeJS yang kita buat
+
+Project Configuration
+-name = Nama Project / Package
+-version = Versi Project
+-description = Deskripsi Project
+-homepage = Home Page Project
+-author = Author Project
+-contributors = nama kontributor project
+-main = Entry point package
+-keywords = Keywords project
+-license = lisensi project
+-repository = Repository Project 
+
+Project Type
+-Secara default, saat kita membuat project NodeJS, NodeJS menggunakan common js
+-Oleh karena itu. ketika kita ingin menggunakan JavaScript Modules, kita harus mengubah filenya
+ menjadi file mjs
+-Namun, kita juga bisa mengubah default project type dari commonjs menjadi js modules, dengan 
+ cara mengubah type di package.json
+-Sangat direkomendasikan sekarang menggunakan js modules dibandingkan commonjs, karena js modules
+ sudah menjadi standard di JavaScript
+
+Script
+-NPM memiliki fitur yang bernama script, dimana kita bisa menyediakan perintah script yang nanti
+ bisa digunakan untuk menjalankan perintah lainya
+-Penggunaan script ini biasanya digunakan untuk mempermudah ketika kita menjalankan perintah yang
+ panjang
+-Untuk menambahkan script, kita bisa tambahkan script nya di "package.json"
+-cara menjalankannya, kita bisa menggunakan perintah: "npm run-script namascript"
+
+Special Script
+-Script di package.json terdapat beberapa yang Special atau khusus
+-Script tersebut tidak perlu dijalankan menggunakan npm run-script namascript, tapi bisa langsung
+ dijalankan menggunakan perintah npm namascript.
+-Contoh special script yaitu: start, stop, test, restart, uninstall, version, dll
+-Selain itu, terdapat script special untuk script diatas, kita bisa gunakan  prefix pre sebagai
+ script yang akan dijalankan sebelumnya, dan prefix post sebagai script yang dijalankan setelahnya
+-Misal ketika kita gunakan perintah NPM start, maka akan menjalankan script prestart, start, dan
+ poststart  
+
+Main
+-Sampai saat ini, kita tidak pernah membahas tentang attribut main di package.json
+-attribute main adalah entry point yang akan di-load ketika kita me-load NodeJS Project/Package
+-Pada Kasus ketika kita membuat aplikasi, mungkin tidak terlalu berguna, tapi pada kasus ketika
+ kita membuat library yang akan digunakan banyak project, baru attribute main ini akan terlihat
+ kegunaanya
+
+Export Module
+-Problem ketika kita menggunakan attribute main adalah, kita cuma bisa mengekspos satu file.js,
+ oleh karena itu penggunaan attribute main sebenarnya sudah tidak direkomendasikan lagi.
+-Sebagai penggantinya, terdapat attribute export yang bisa digunakan sebagai konfigurasi untuk 
+ mengekspos file.js
+-Yang menarik dari fitur  export ini. kita bisa membuat file alias
+
+Depedency management
+-Salah Satu fitur yang sangat berguna dalam NPM adalah depedency management
+-Saat kita membuat aplikasi, sering sekali kita akan membutuhkan depedency ke library atau
+ package pihak lain, misal packgae open source, atau package yang kita buat sendiri.
+-NPM mendukung depedency management, sehingga  kita tidak perlu download package yang kita
+ butuhkan secara manual, termasuk tidak perlu melakukan update depedency secara manual
+ ketika ada update terbaru
+
+Penting "npmjs.com"
+-Secara default, NPM akan download depedency dari website "https://www.npmjs.com/"
+-Kita bisa mencari open source package disana jika kita mau
+-Untuk menginstall depedency, kita bisa gunakan perintah:
+ npm install namadepedency@version
+-Atau bisa langsung tulis depedencies di package.json
+
+Download Depedency
+-Untuk download depedency, kita bisa gunakan perintah:
+ npm install
+-Secara otomatis NPM akan download package yang ada di depedency ke dalam folder node_modules
+-Selain itu, NPM juga akan membuat file package-lock.json yang berisikan informasi package yang 
+ di download, ini untuk mempermudah ketika kita melakukan download ulang library di komputer lain
